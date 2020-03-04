@@ -66,7 +66,7 @@ def get_config(parse=True, **optional_kwargs):
                         choices=['NQG', 'PG'],
                         help='NQG: NQG++ (Zhou et al. 2017) / PG: Pointer Generator (See et al. 2017)')
     parser.add_argument('--data', type=str, default='squad',
-                        choices=['squad', 'cnndm'])
+                        choices=['oh','real', 'squad', 'cnndm'])
 
     # Training
     parser.add_argument('--epochs', type=int, default=20,

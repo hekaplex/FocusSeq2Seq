@@ -55,30 +55,11 @@ def get_loader(config, data_dir):
             num_workers=1,
         )
 
-    elif config.task == 'SM' and config.data == "real":
-        import CNNDM_data_loader
-
-        data_dir = current_dir.joinpath('oh_out/')
-        with open(data_dir.joinpath('vocab.pkl'), 'rb') as f:
-            word2id, id2word = pickle.load(f)
-
-        train_loader = None
-        val_loader = None
-
-        data_dir = current_dir.joinpath('real/')
-        test_df = pd.read_pickle(data_dir.joinpath('test_df.pkl'))
-        test_loader = CNNDM_data_loader.get_SM_loader(
-            test_df,
-            # batch_size=max(4, config.batch_size // config.n_mixture),
-            batch_size=config.eval_batch_size,
-            shuffle=False,
-            num_workers=1,
-        )
     elif config.task == 'SM':
-        assert config.data == 'oh'
+        assert config.data == 'cnndm'
         import CNNDM_data_loader
 
-        data_dir = current_dir.joinpath('oh_out/')
+        data_dir = current_dir.joinpath('cnndm_out/')
         with open(data_dir.joinpath('vocab.pkl'), 'rb') as f:
             word2id, id2word = pickle.load(f)
 
@@ -201,4 +182,3 @@ def get_ckpt_name(config):
         if config.n_mixture > 1:
             filename += f"_decode{config.n_mixture}"
     return filename
-
