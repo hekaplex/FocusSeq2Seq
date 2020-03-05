@@ -1,0 +1,159 @@
+Input:
+Okay. I went to Delaware State, it was Delaware State College at that time in 1975. I've met so many great people that we have lifelong friendships now. My friends that I met there were David, Shiela Boston, and I met Pamela Jorna. And we are all still friends. I loved staying in Tubman Hall, I met many great people there. We loved the second floor that we lived on because one of those wings had, was like a wing that was on level and had a bathtub.
+
+
+Predicted summary:
+I went to Delaware it was Delaware State College at that time in 1975. I've met so many great people that we have lifelong friendships now. My friends that I met there were David, Shiela Boston, and I met Pamela Jorna. we are all still friends. I loved staying in Tubman Hall, I met many great people there. We loved the second floor that we lived on because one of those wings had, was like a wing that was on level and had a bathtub. I I I met the second floor that we lived on because one of those wings had, and had a wing that was on level bathtub.
+
+
+=================================
+Input:
+Everybody loved to take turns using that bathtub because it was like a home away from home. I had a great roommate during my freshman year, Lynn Perkins who I still stay in contact with today. I loved the way that the campus was. I love when we have intramural sports, especially the basketball team. It was a group of us, we always rooted for the young men that played that were from Florida, the 'Gators' we used to call them. And going to the student center every Friday night, that was just like a sociable time to have the dances that people love. But I love being in the Home Economics department, which I majored in Child Development and Family Relations. I remember Dr.
+
+
+Predicted summary:
+Everybody loved to take turns using that bathtub because it was like a home away from home. I had a great roommate during my freshman year, Lynn Perkins who I still stay in contact with today. I loved when we have intramural sports, especially the basketball team. It was a group of us, we always rooted for the young men that played that were from Florida, the 'Gators' we used to call them. And going to the student center every Friday night, that was just like a sociable time to have the dances that people love. But I love being in the Home Economics department, which I majored in Child Development and Family I remember I I in Child Development
+
+
+=================================
+Input:
+Adam, Dr. Stephenson, who has just celebrated being 105 one of the oldest people from Delaware State. Also, going back now just to see all the changes that are really so good that you know that the college is making progress progressive. I just want to say to anybody that is considering going to HBCU, do it. Because that is the best experience of your life. And you will always have those lifetime memories and you will meet good people. And when you go back there, it will just make you so proud and happy that you attended that college and I love Delaware State University..
+
+
+Predicted summary:
+Stephenson, who has just celebrated being 105 one of the oldest people from Delaware Adam, going back now just to see all the changes that are really so good that know that the college is making progress and I just want to say to anybody that is considering going to HBCU, do that is the best experience of the best experience of the Adam, and will always have those lifetime memories and will meet good back back and proud and happy that college and I love that college and I love that so proud and happy that college and happy that so proud and proud and proud and proud and proud to make that college and will meet good
+
+
+=================================
+Input:
+All right, Mr. Brown. You can start whenever you are ready. All right, my name is Paul Brown. I was a transfer student from Seton Hall University in 1984 where I was a communications major and I transferred to Delaware State as a business administration major. I was on the track and field team as a student athlete. At my I was a communications major at Seton Hall and I transferred to Delaware State in 1984 as a business admin major. I was on the track and field team, student athlete. In my last semester at Delaware State, I ran out of my scholarship funding.
+
+
+Predicted summary:
+I was a transfer student from Seton Hall University in 1984 where I was a communications major and I transferred to Delaware State as a business administration major. I was on the track and field team as a student athlete. At my I was a communications major at Seton Hall and I transferred to Delaware State in 1984 as a business admin major. I was on the track and field team, student athlete.
+
+
+=================================
+Input:
+So I went to the alumni administration and they granted me some funding to finish up two courses in order for me to get my degree. It was the Dean of the English Department who helped me and told me what to do. I told him, I need help. What should I do? He told me not to worry about it. He picked up the phone, called over to the alumni office, spoke to someone, and when I got there, they took care of it. I went over and they lent me the funds so I was able to take the two classes and graduate. Now that's the story. I will never forget that. Never.
+
+
+Predicted summary:
+I I went to the alumni administration and they granted me some funding to finish up two courses in order for me to get my degree. It was the Dean of the English Department who helped me and told me what to do. I told him, I need help. What should I He told me not to worry about it. He picked up the phone, called over to the alumni office, spoke to someone, and when I got there, they took care of it. I went over and they lent me the funds so I was able to take the two classes and graduate.
+
+
+=================================
+Input:
+Cause if it wasn't for that, I would not have been able to graduate. I will never, ever forget that. Ever. It was huge because when I transferred over to Delaware State, I knew I had to get my degree. I was insistent that I couldn't go home without a degree. I am one of nine children and the first one in the family to graduate. It meant a lot. And I still think about that today. Now anytime I get a postcard or phone call, I always respond because I remember how I was able to get my degree and I am indebted to Delaware State for the rest of my life..
+
+
+Predicted summary:
+wasn't wasn't for that, I would not have been able to graduate. I will never, ever forget that. Ever. It was huge because when I transferred over to Delaware State, I knew I had to get my degree. I was insistent that I couldn't go home without a degree. I am one of nine children and the first one in the family to graduate. It meant a lot. And I still think about that today. anytime I get a postcard or phone call, I always respond because I remember how I was able to get my degree and I am indebted to Delaware State for the rest of my life.. life.. I I I I I remember how I was
+
+
+=================================
+Input:
+STEVE KROFT: The speech on Tuesday in Kansas sounded very much like a campaign speech. What were you trying to get across? PRESIDENT OBAMA: Our economy is in a transition of the sort that America's gone through maybe every 70-75 years. We went from an agriculture economy to an information, to an industrial economy during Teddy Roosevelt's period. We've now gone from an industrial to a knowledge-based, innovation society. And, you know, there are a lot of disruptions.
+
+
+Predicted summary:
+We went from an agriculture the speech on Kansas and We went from an agriculture in a every of the every on like a every of the every on the Kansas and We went to much like a every of the information, and We now gone from an industrial to a knowledge-based,
+
+
+=================================
+Input:
+And the middle class in America has really taken it on the chin, during this period. They haven't seen their wages go up, they haven't seen their incomes go up. You know, women went into the workforce to try to keep family incomes up. But then that wasn't enough; they ended up getting into debt. And they're not seeing enough prospects for a future where their kids are gonna do better than they are.
+
+
+Predicted summary:
+haven't middle class in America has really taken it on the chin, during this period. haven't seen their wages go they haven't seen their incomes go up. You know, women went into the workforce to try to keep family incomes up. then that wasn't they ended up getting into debt. And they're not seeing enough prospects for a future where their kids are gonna do better than they are. are. they're not seeing enough prospects for a future where their kids are gonna do better than they are. And not seeing enough getting into debt. And they're not went into the workforce to try to incomes up. then that wasn't they ended up getting into a future up. haven't their
+
+
+=================================
+Input:
+Now the good news is, we can solve these problems and meet these challenges, because America, by definition, is an innovation society. We constantly remake ourselves. So there's no reason why we should not succeed in this era, just like we've succeeded in past eras. But it requires us to make some adjustments. And it requires everybody to have a fair chance, everybody to do their fair share, and rules of the road that create fair play for everybody..
+
+
+Predicted summary:
+We good news news we can solve these problems and meet these challenges, because America, by definition, is an reason We constantly remake ourselves. We reason why why we should not succeed in this era, like we've succeeded in past and it like we've succeeded in past and us to make some fair share, and rules of the road that create fair play for everybody to do their fair share, and rules of the road that create fair play for everybody..
+
+
+=================================
+Input:
+All right, Mr. Brown. You can start whenever you are ready.
+
+
+Predicted summary:
+You can start at All
+
+
+=================================
+Input:
+All right, my name is Paul Brown. I was a transfer student from Seton Hall University in 1984 where I was a communications major and I transferred to Delaware State as a business administration major. I was on the track and field team as a student athlete. At my I was a communications major at Seton Hall and I transferred to Delaware State in 1984 as a business admin major.
+
+
+Predicted summary:
+I was a transfer student from Seton Hall University in 1984 where I was a communications major and I transferred to Delaware State as a business administration major. I was on the track and field team as a student athlete. At my I was a communications major at Seton Hall and I transferred to Delaware State in 1984 as a business admin major. I I I transferred to Delaware State in 1984 as a business admin major. I was a communications major at Seton Hall and I transferred to Delaware State was a communications major and I my I was a communications Delaware State I was a communications Delaware State was a 1984 student from Seton Hall was a 1984
+
+
+=================================
+Input:
+I was on the track and field team, student athlete. In my last semester at Delaware State, I ran out of my scholarship funding. So I went to the alumni administration and they granted me some funding to finish up two courses in order for me to get my degree..
+
+
+Predicted summary:
+I was on the track and field team, student athlete. my last semester at Delaware State, I ran out of my scholarship funding. So I went to the alumni administration and they granted me some funding to finish up two courses in order for me to get my degree.. degree.. I I I went to the alumni administration and they granted me some funding to finish up two courses in order for me to get my degree.. I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I I
+
+
+=================================
+Input:
+It was the Dean of the English Department who helped me and told me what to do. I told him, I need help. What should I do? He told me not to worry about it.
+
+
+Predicted summary:
+It was the Dean of the English Department who helped me and told me what to do. I told him, I need help. What should I He told me not to worry about it. it. It need help. What should I He told me not to worry about it.
+
+
+=================================
+Input:
+He picked up the phone, called over to the alumni office, spoke to someone, and when I got there, they took care of it. I went over and they lent me the funds so I was able to take the two classes and graduate. Now that's the story.
+
+
+Predicted summary:
+He picked up the phone, called over to the alumni office, spoke to someone, and when I got there, they took care of it. I went over and they lent me the funds so I was able to take the two classes and graduate.
+
+
+=================================
+Input:
+I will never forget that. Never. Cause if it wasn't for that, I would not have been able to graduate..
+
+
+Predicted summary:
+I will never forget that. I for that, I would not have been able to graduate.. graduate.. I would not have been able to graduate..
+
+
+=================================
+Input:
+I will never, ever forget that. Ever. It was huge because when I transferred over to Delaware State, I knew I had to get my degree.
+
+
+Predicted summary:
+I will never, ever forget that. Ever. It was huge because when I transferred over to Delaware State, I knew I had to get my degree. degree. I knew I had to get my degree. I I I I transferred over to Delaware State, I I I had huge because when I transferred huge because never, Ever. was forget that. Ever. ever forget because get to to my Delaware I I I I had to huge to when Delaware I I I had to huge to when Delaware I I I I had get over my get over my Delaware degree. I I I I I I had get over that. I when Delaware I I I I I I
+
+
+=================================
+Input:
+I was insistent that I couldn't go home without a degree. I am one of nine children and the first one in the family to graduate. It meant a lot.
+
+
+Predicted summary:
+I was insistent that I couldn't go home without a degree. I am one of nine children and the first one in the family to graduate. It meant a lot. lot. couldn't meant a lot. I was one of nine children and the first one in the family to graduate. It meant a insistent that I couldn't go home without a degree. I am one of lot. I I I I I I go home without lot. I I I I I I I I was insistent that lot. I I I I I I I I was a insistent first one lot. I I I I I I I I I I I was a insistent that lot. I
+
+
+=================================
+Input:
+And I still think about that today. Now anytime I get a postcard or phone call, I always respond because I remember how I was able to get my degree and I am indebted to Delaware State for the rest of my life..
+
+
+Predicted summary:
+I still think about that I get a postcard or phone I I always I remember how I was able to get my degree and I am indebted to Delaware State for the rest of my life.. life.. I I I I I I I I I remember how I was able to get my degree and I am indebted to Delaware State I I I I I I I get a postcard or phone and I I I I I I I I I remember how about that I I get a postcard or my life..
