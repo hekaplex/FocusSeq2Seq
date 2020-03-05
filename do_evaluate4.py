@@ -877,7 +877,7 @@ def prepare_real_life_evaluation():
 
     batch_of_text_in_2 = split_in_2(batch_of_text)
 
-    test_df = oral_history_data_loader.preprocess_data_for_test(real_dir, batch_of_text_in_3, word2id, id2word, 'test')
+    test_df = oral_history_data_loader.preprocess_data_for_test(real_dir, batch_of_text_in_2, word2id, id2word, 'test')
 
     test_df.to_pickle(real_dir.joinpath('test_df.pkl'))
 
