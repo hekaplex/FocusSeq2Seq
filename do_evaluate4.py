@@ -818,13 +818,21 @@ def clean_predicted_hypo(unclean_hypo):
     return unclean_hypo
 
 
-def split_in_3(batch_of_text):
+def split_in_2(batch_of_text):
     all_text = []
     for entry in batch_of_text:
         entry = entry.replace("\n", " ")
         entry = entry.strip()
         tokens = entry.split(".")
         nr_of_sentences = len(entry.split("."))
+        part1 = tokens[0:int(nr_of_sentences / 2)]
+        part2 = tokens[int(nr_of_sentences /2):]
+        part1_text = ".".join(part1).strip() + "."
+        part2_text = ".".join(part2).strip() + "."
+        all_text.append(part1_text)
+        all_text.append(part2_text)
+    return all_text
+"""
         part1 = tokens[0:int(nr_of_sentences / 3)]
         part2 = tokens[int(nr_of_sentences / 3):int(nr_of_sentences * 2 / 3)]
         part3 = tokens[int(nr_of_sentences * 2 / 3):]
@@ -834,8 +842,8 @@ def split_in_3(batch_of_text):
         all_text.append(part1_text)
         all_text.append(part2_text)
         all_text.append(part3_text)
+"""
 
-    return all_text
 
 
 def prepare_real_life_evaluation():
@@ -867,7 +875,7 @@ def prepare_real_life_evaluation():
 
     batch_of_text = [str(p).strip() for p in batch_of_text if len(p.strip()) > 0]
 
-    batch_of_text_in_3 = split_in_3(batch_of_text)
+    batch_of_text_in_2 = split_in_2(batch_of_text)
 
     test_df = oral_history_data_loader.preprocess_data_for_test(real_dir, batch_of_text_in_3, word2id, id2word, 'test')
 
