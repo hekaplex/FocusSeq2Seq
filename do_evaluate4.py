@@ -803,7 +803,7 @@ def clean_predicted_hypo(unclean_hypo):
     last_sentence = sentences[-1]
     last_sentence_nr_of_words = len(last_sentence.split(" "))
     # check for the number of words
-    if len(last_sentence_nr_of_words) <= 3:
+    if last_sentence_nr_of_words <= 3:
         full_text = ".".join(sentences[:-1]) + "."
         return full_text
 
