@@ -1,0 +1,21 @@
+Ssh to hekaplex machine
+
+--- change to root
+sudo bash
+
+--- activate the conda environment
+conda activate eml
+
+--- change to the folder
+cd /home/hekaplex/work/FocusSeq2Seq
+
+--- in /home/hekaplex/work/FocusSeq2Seq folder change to the input folder
+cd real
+
+--- paste there the sql dump in the original_real_input.txt
+
+--- navigate back one level up to: /home/hekaplex/work/FocusSeq2Seq
+
+--- run: sh predict5.sh
+
+--- you'll have an output: evaluation_115126.txt (where you have the input,expected and predicted summary. the last number of evaluation file are hour, minute ,second so they will hcnage with each run)
