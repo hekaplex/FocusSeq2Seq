@@ -386,9 +386,9 @@ def evaluate5(loader, model, epoch, config, expected, test=False):
                 f.write(predicted_hypo[xi] + "\n")
                 f.write("\n\n")
 
-                f.write("Cleaned Predicted summary:\n")
-                f.write(clean_prediction + "\n")
-                f.write("\n\n")
+                #f.write("Cleaned Predicted summary:\n")
+                #f.write(clean_prediction + "\n")
+                #f.write("\n\n")
 
             # references = [split_tagged_sentences(ref) for ref in references]
             # hypotheses_ = [[[" ".join(words)] for words in hypothesis]
