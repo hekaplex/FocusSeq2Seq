@@ -12,6 +12,7 @@ import torch
 from utils import bleu, rouge
 from utils.tensor_utils import repeat
 from utils.data_utils import split_sentences
+import datetime
 
 if torch.cuda.is_available():
     device = 'cuda'
@@ -22,6 +23,9 @@ n_cpus = multiprocessing.cpu_count()
 
 
 def evaluate5(loader, model, epoch, config, expected, test=False):
+    now = datetime.datetime.now()
+
+    f = open("evaluation_" + str(now.hour) + str(now.minute) + str(now.second) + ".txt", "w")
     start = time.time()
     print('Evaluation start!')
     model.eval()
@@ -356,10 +360,17 @@ def evaluate5(loader, model, epoch, config, expected, test=False):
                 print("Input:")
                 print(all_sources[input_cnt])
                 print("\n")
+                f.write("Input:\n")
+                f.write(all_sources[input_cnt] + "\n")
+                f.write("\n\n")
 
                 print("Expected:")
                 print(expected[input_cnt])
                 print("\n")
+
+                f.write("Expected:\n")
+                f.write(expected[input_cnt] + "\n")
+                f.write("\n\n")
 
                 input_cnt += 1
                 # print("Target summary: ")
@@ -370,6 +381,14 @@ def evaluate5(loader, model, epoch, config, expected, test=False):
                 print(predicted_hypo[xi])
                 clean_prediction = clean_predicted_hypo(predicted_hypo[xi])
                 print("\n")
+
+                f.write("Predicted summary:\n")
+                f.write(predicted_hypo[xi] + "\n")
+                f.write("\n\n")
+
+                f.write("Cleaned Predicted summary:\n")
+                f.write(clean_prediction + "\n")
+                f.write("\n\n")
 
             # references = [split_tagged_sentences(ref) for ref in references]
             # hypotheses_ = [[[" ".join(words)] for words in hypothesis]
@@ -515,7 +534,7 @@ if __name__ == '__main__':
     filename += f"_epoch{config.load_ckpt}.pkl"
     ckpt_path = ckpt_dir.joinpath(filename)
     ckpt = torch.load(ckpt_path,
-                      map_location="cpu")  # TODO: remove this one #ckpt = torch.load(ckpt_path,map_location="cpu") if you bring the model locally
+                      map_location=device)  # TODO: remove this one #ckpt = torch.load(ckpt_path,map_location="cpu") if you bring the model locally
     model.load_state_dict(ckpt['model'])
     print('Loaded model from', ckpt_path)
 
