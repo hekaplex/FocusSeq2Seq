@@ -1,0 +1,1 @@
+python do_evaluate5.py --task=SM --model=PG --load_glove=False --data=real     --rnn=LSTM --dec_hidden_size=512     --batch_size=16 --eval_batch_size=64     --use_focus=True --n_mixture=3 --decoding=greedy
