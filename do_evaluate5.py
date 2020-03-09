@@ -356,6 +356,7 @@ def evaluate5(loader, model, epoch, config, expected, test=False):
                 predicted_hypo.append(predicted_text)
 
             for xi in range(0, len(predicted_hypo)):
+                f.flush()
                 print("=================================")
                 print("Input:")
                 print(all_sources[input_cnt])
@@ -473,15 +474,26 @@ def prepare_real_life_evaluation():
     real_dir = current_dir.joinpath('real/')
     batch_of_text = []
 
+    batch_of_expected = []
+
     full_path = os.path.join(real_dir, "original_real_input.txt")
     origina_df = return_original_real_input(full_path)
     all_articles = list(origina_df.original.values)
 
     expected = list(origina_df.transcribed.values)
 
-    batch_of_text = [str(p).replace("\n", " ").strip() for p in all_articles]
+    for local_ct in range(0,len(all_articles)):
+        p = str(all_articles[local_ct].replace("\n", " ").strip())
+        p2 = str(expected[local_ct].replace("\n", " ").strip())
+        if len(p.strip())<30 or len(p2.strip())<30: continue
 
-    batch_of_expected = [str(p).replace("\n", " ").strip() for p in expected]
+        batch_of_text.append(p)
+        batch_of_expected.append(p2)
+
+
+    #batch_of_text = [str(p).replace("\n", " ").strip() for p in all_articles]
+
+    #batch_of_expected = [str(p).replace("\n", " ").strip() for p in expected]
     #    with open(os.path.join(real_dir, "original_real_input.txt")) as f:
     #        batch = ""
     #        for line in f.readlines():
