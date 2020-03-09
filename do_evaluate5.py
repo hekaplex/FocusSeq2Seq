@@ -346,10 +346,10 @@ def evaluate5(loader, model, epoch, config, expected, test=False):
 
             nested_hypothesis_list = hypotheses[0]
 
-            gt_summary = []
+            #gt_summary = []
             predicted_hypo = []
-            for nested_summary in summaries:
-                gt_summary.append(nested_summary[0])
+            #for nested_summary in summaries:
+            #    gt_summary.append(nested_summary[0])
 
             for nested_pred in nested_hypothesis_list:
                 predicted_text = " ".join(nested_pred)
