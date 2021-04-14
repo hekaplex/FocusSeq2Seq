@@ -1,0 +1,77 @@
+usage: train.py [-h] [--task {QG,SM}] [--model {NQG,PG}]
+                [--data {squad,cnndm}] [--epochs EPOCHS]
+                [--batch_size BATCH_SIZE] [--lr LR] [--clip CLIP] [--no_clip]
+                [--optim {adam,amsgrad,adagrad}] [--dropout DROPOUT] [--dry]
+                [--seed SEED] [--eval_only] [--load_ckpt LOAD_CKPT]
+                [--eval_batch_size EVAL_BATCH_SIZE]
+                [--val_data_size VAL_DATA_SIZE] [--vocab_size VOCAB_SIZE]
+                [--embed_size EMBED_SIZE] [--enc_hidden_size ENC_HIDDEN_SIZE]
+                [--dec_hidden_size DEC_HIDDEN_SIZE] [--num_layers NUM_LAYERS]
+                [--rnn RNN] [--weight_tie WEIGHT_TIE]
+                [--embedding_freeze EMBEDDING_FREEZE]
+                [--load_glove LOAD_GLOVE] [--feature_rich]
+                [--coverage_lambda COVERAGE_LAMBDA]
+                [--decoding {greedy,beam,diverse_beam,topk_sampling}]
+                [--beam_k BEAM_K] [--temperature TEMPERATURE]
+                [--diversity_lambda DIVERSITY_LAMBDA] [--decode_k DECODE_K]
+                [--mixture_decoder] [--use_focus USE_FOCUS]
+                [--eval_focus_oracle] [--threshold THRESHOLD]
+                [--n_mixture N_MIXTURE]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --task {QG,SM}        QG: Question Generation / SM: Summarization
+  --model {NQG,PG}      NQG: NQG++ (Zhou et al. 2017) / PG: Pointer Generator
+                        (See et al. 2017)
+  --data {squad,cnndm}
+  --epochs EPOCHS       num_epochs
+  --batch_size BATCH_SIZE
+                        batch size
+  --lr LR               learning rate
+  --clip CLIP           gradient clip norm
+  --no_clip             Not to use gradient clipping
+  --optim {adam,amsgrad,adagrad}
+                        optimizer
+  --dropout DROPOUT
+  --dry                 Run training script without actually running training
+                        steps. Debugging only
+  --seed SEED           Random seed
+  --eval_only
+  --load_ckpt LOAD_CKPT
+  --eval_batch_size EVAL_BATCH_SIZE
+                        batch size during evaluation
+  --val_data_size VAL_DATA_SIZE
+                        number of examples for validation / Use (for
+                        debugging) when evaluation for summarization takes so
+                        long
+  --vocab_size VOCAB_SIZE
+  --embed_size EMBED_SIZE
+  --enc_hidden_size ENC_HIDDEN_SIZE
+  --dec_hidden_size DEC_HIDDEN_SIZE
+  --num_layers NUM_LAYERS
+  --rnn RNN
+  --weight_tie WEIGHT_TIE
+                        output layer tied with embedding
+  --embedding_freeze EMBEDDING_FREEZE
+                        Freeze word embedding during training
+  --load_glove LOAD_GLOVE
+                        Initialize word embedding from glove (NQG++ only)
+  --feature_rich        Use linguistic features (POS/NER/Word Case/Answer
+                        position; NQG++ only)
+  --coverage_lambda COVERAGE_LAMBDA
+                        hyperparameter for coverage (Pointer Generator only)
+  --decoding {greedy,beam,diverse_beam,topk_sampling}
+  --beam_k BEAM_K
+  --temperature TEMPERATURE
+  --diversity_lambda DIVERSITY_LAMBDA
+  --decode_k DECODE_K
+  --mixture_decoder     Hard Uniform Mixture Decoder (Shen et al. 2018)
+  --use_focus USE_FOCUS
+                        whether to use focus or not
+  --eval_focus_oracle   Feed focus guide even during test time
+  --threshold THRESHOLD
+                        focus binarization threshold
+  --n_mixture N_MIXTURE
+                        Number of mixtures for Selector (Ours) or Mixture
+                        Decoder (Shen et al. 2018)
+

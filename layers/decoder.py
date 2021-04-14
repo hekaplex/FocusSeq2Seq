@@ -615,6 +615,7 @@ class PGDecoder(nn.Module):
             if i == 0:
                 # [B, hidden_size]
                 context = torch.zeros_like(enc_outputs[:, 0])
+                dec_input_word_embed
             dec_input = self.input_linear(torch.cat([dec_input_word_embed, context], dim=1))
 
             s = self.rnncell(dec_input, s)

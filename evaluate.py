@@ -253,7 +253,10 @@ def evaluate(loader, model, epoch, config, test=False):
                     f_p = focus_p[i].tolist()  # [n_mixture, L]
 
                     print(f'[{i}]')
-
+                    # print(f'(focus {k})')
+                    # print(f"length of focus k; " + str(k))
+                    # print(f"length of focus f_p; " + str(len(f_p)))
+                    # print(f"length of focus s; " + str(len(s)))
                     print(f"Source Sequence: {' '.join(source_WORD[i])}")
                     if config.task == 'QG':
                         print(f"Answer: {' '.join(answer_WORD[i])}")
@@ -265,6 +268,7 @@ def evaluate(loader, model, epoch, config, test=False):
                         print(f"Target Summary: {' '.join(target_WORD[i])}")
                     if config.n_mixture > 1:
                         for n in range(config.n_mixture):
+                            print(n)
                             if config.use_focus:
                                 print(f'(focus {n})')
 
@@ -281,7 +285,6 @@ def evaluate(loader, model, epoch, config, test=False):
                     else:
                         for k in range(config.decode_k):
                             if config.use_focus:
-                                print(f'(focus {k})')
 
                                 print(
                                     f"Focus Prob: {' '.join([f'({w}/{p:.2f})' for (w, p) in zip(s, f_p[k])])}")

@@ -28,8 +28,8 @@ if __name__ == "__main__":
     config = get_config()
     print(config)
 
-    time_now: str = time.strftime("%Y-%m-%d_%H:%M:%S")
-    print('PCIDEEPEDIT BEGIN:', time_now)
+    time_now = time.strftime("%Y-%m-%d_%H:%M:%S")
+    print(time_now)
 
     if config.task == 'QG':
         DATASET_PATH = './squad_out'
@@ -486,14 +486,6 @@ if __name__ == "__main__":
 
                 n_epoch_no_improvement = 0
             else:
-                ckpt_dir = Path(f"./ckpt/{config.model}/").resolve()
-                ckpt_dir.mkdir(exist_ok=True)
-                filename = get_ckpt_name(config)
-                filename += f"_epoch{epoch}.pkl"
-                ckpt_path = ckpt_dir.joinpath(filename)
-                # torch.save(checkpoint, ckpt_path)
-                # print("Model saved!")
-                best_ckpt_path = ckpt_path
                 n_epoch_no_improvement += 1
 
             print(f'Best epoch: {best_epoch}')
@@ -513,5 +505,3 @@ if __name__ == "__main__":
         test_loader, model, best_epoch, config, test=True)
     print('Best validation epoch:', best_epoch)
     print(f'Best validation {metric_name}: {best_eval_metric:.3f}')
-    time_now: str = time.strftime("%Y-%m-%d_%H:%M:%S")
-    print('PCIDEEPEDIT END:', time_now)

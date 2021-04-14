@@ -250,7 +250,7 @@ class CNNDMDataset(Dataset):
         print(f'Done! Size: {len(self.df)}')
 
     def __getitem__(self, idx):
-        return self.df.ix[idx]
+        return self.df.loc[idx]
 
     def __len__(self):
         return len(self.df)
